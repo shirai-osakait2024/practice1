@@ -341,7 +341,11 @@ footer {
 	margin: 0;	
 }
 
-
+/*追加した項目*/
+.text{
+float: left;
+padding-right:200px;
+}
 /*FAQ
 ---------------------------------------------------------------------------*/
 .openclose {cursor: pointer;}
