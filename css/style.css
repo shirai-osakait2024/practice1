@@ -27,7 +27,7 @@
 ---------------------------------------------------------------------------*/
 :root {
 
-	--primary-color: #0a0ed0;			/*テンプレートの背景色*/
+	--primary-color: #000000;			/*テンプレートの背景色*/
 	--primary-inverse-color: #fff;		/*上のprimary-colorの対として使う色*/
 
 	--global-space: 3vw;				/*サイト内の余白の一括管理用。画面幅100%＝100vwです。*/
@@ -344,7 +344,15 @@ footer {
 /*追加した項目*/
 .text{
 float: left;
-padding-right:200px;
+padding-right:100px;
+}
+.text p {
+float: right;
+padding-left: 30px;
+}
+.text2 p {
+float: right;
+padding-right: 10px;
 }
 /*FAQ
 ---------------------------------------------------------------------------*/
